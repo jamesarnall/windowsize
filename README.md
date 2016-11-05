@@ -1,5 +1,9 @@
 # windowsize
 
-[![Build Status](https://secure.travis-ci.org/username/windowsize.png?branch=master)](http://travis-ci.org/username/windowsize)
+Small JS component that adds a box with window size to your HTML page.
 
-It does this one thing really awesome! boyah!
+## Usage
+
+Just include the script at the very bottom of your ~~~~<body>~~~~.
+
+~~~~<script src="js/windowsize.js"></script>~~~~
