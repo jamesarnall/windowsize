@@ -9,3 +9,7 @@ Just include the script at the very bottom of your `<body>`.
 ```html
 <script src="js/windowsize.js"></script>
 ```
+or
+```html
+<script src="js/windowsize.min.js"></script>
+```
