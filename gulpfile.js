@@ -1,5 +1,7 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync').create();
+var rename      = require("gulp-rename");
+var uglify      = require('gulp-uglify');
 
 // define tasks here
 gulp.task('default', function(){
@@ -12,6 +14,13 @@ gulp.task('default', function(){
 gulp.task('js-watch', function (done) {
     browserSync.reload();
     done();
+});
+
+gulp.task('uglify', function() {
+  gulp.src('js/windowsize.js')
+    .pipe(uglify())
+    .pipe(rename({ suffix: '.min' }))
+    .pipe(gulp.dest('js'))
 });
 
 gulp.task('serve', function () {
