@@ -8,10 +8,10 @@
         elem.style.color           = "#66d9ef";
         elem.style.fontFamily      = "Helvetica, Arial, sans-serif";
         elem.style.fontSize        = "12px";
-        elem.style.height          = "16px";
+        elem.style.height          = "32px";
         elem.style.lineHeight      = "16px";
         elem.style.opacity         = "0.75";
-        elem.style.padding         = "1em";
+        elem.style.padding         = "8px";
         elem.style.position        = "fixed";
         elem.style.right           = "18px";
         elem.style.textAlign       = "center";
